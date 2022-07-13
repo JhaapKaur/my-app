@@ -8,6 +8,16 @@ function App() {
         <h1> Weather Search </h1>
         <Weather />
       </header>
+      <footer>
+        This project was coded by JhaapKaur{" "}
+        <a
+          href="https://github.com/JhaapKaur/my-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          open-source code
+        </a>{" "}
+      </footer>
     </div>
   );
 }
