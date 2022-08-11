@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div className = "container">
         <h1> Weather Search </h1>
         <Weather />
       </header>
@@ -18,6 +19,7 @@ function App() {
           open-source code
         </a>{" "}
       </footer>
+      </div>
     </div>
   );
 }
